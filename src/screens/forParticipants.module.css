@@ -1,0 +1,35 @@
+.form {
+  margin-top: 10vh;
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.background {
+  margin: 0;
+  padding: 0;
+  background-image: url("../photos/tlo-1.jpg"); /* Zastąp ścieżką do własnego obrazu */
+  background-size: cover;
+  background-position: center;
+  font-family: "Arial", sans-serif; /* Możesz dostosować czcionkę do własnych preferencji */
+  /* color: #fff; Kolor tekstu na tle */
+  height: 100vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sexInfo {
+  font-family: "Arial", sans-serif; /* Możesz dostosować czcionkę do własnych preferencji */
+  text-transform: uppercase;
+}

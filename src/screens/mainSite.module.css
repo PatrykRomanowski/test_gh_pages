@@ -1,0 +1,51 @@
+.navList {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around; /* Bez cudzysłowów wokół space-around */
+  color: #fff; /* Bez cudzysłowów wokół koloru */
+  list-style-type: none; /* Usunięcie punktów */
+  background-color: rgba(34, 34, 34, 0.7); /* R, G, B, przeźroczystość */
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.navItem {
+  padding: 25px 5px; /* Bez cudzysłowów wokół wartości liczbowej */
+  text-decoration: none;
+  font-family: "Arial", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  transition: 0.3s ease; /* Dodanie efektu przejścia na zmianę koloru tła */
+}
+
+.img {
+  margin-right: 20px;
+  height: 20px;
+  transition: 0.3s ease; /* Dodanie efektu przejścia na zmianę koloru tła */
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-video {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 70vw;
+  height: 70vh;
+  overflow: hidden;
+  z-index: -1; /* Ustawienie z-index na -1 umożliwia wyświetlanie treści na wierzchu wideo. */
+}
+
+.img:hover {
+  scale: 1.5;
+}
+
+.navItem:hover {
+  scale: 1.1;
+}

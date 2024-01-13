@@ -1,10 +1,20 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import "./App.css";
+
+import MainSite from "./screens/MainSite";
 
 function App() {
   return (
-    <div className="App">
-      <div>XD</div>
-    </div>
+    <>
+      <Router>
+        <div className="App">
+          <Routes>
+            <Route exact path="/" element={<MainSite />}></Route>
+          </Routes>
+        </div>
+      </Router>
+    </>
   );
 }
 
