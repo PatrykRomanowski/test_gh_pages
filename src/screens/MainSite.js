@@ -2,13 +2,13 @@ import React, { useState } from "react";
 // import { Link } from "react-router-dom"; // Jeśli używasz routingu, w przeciwnym razie usuń to
 
 import StartPage from "./StartPage";
-// import ForParticipants from "./ForParticipants";
-// import Mission from "./Mission";
-// import Patrons from "./Patrons";
-// import Organisers from "./Organisers";
-// import FAQ from "./faq";
-// import Agends from "./agends";
-// import ContactComponent from "./Contact";
+import ForParticipants from "./ForParticipants";
+import Mission from "./Mission";
+import Patrons from "./Patrons";
+import Organisers from "./Organisers";
+import FAQ from "./faq";
+import Agends from "./agends";
+import ContactComponent from "./Contact";
 
 import UnitedKingdomIcon from "../icons/united-kingdom.png"; // Poprawiona ścieżka
 import PolandIcon from "../icons/poland.png";
@@ -48,7 +48,7 @@ const MainSite = () => {
         {navStatus === "startPage" ? (
           <StartPage actualLanguage={actualLanguage} />
         ) : null}
-        {/* {navStatus === "forParticipantsPage" ? (
+        {navStatus === "forParticipantsPage" ? (
           <ForParticipants data={actualData} />
         ) : null}
         {navStatus === "missionPage" ? <Mission data={actualData} /> : null}
@@ -60,7 +60,7 @@ const MainSite = () => {
           <ContactComponent data={actualData} />
         ) : null}
         {navStatus === "faqPage" ? <FAQ data={actualData} /> : null}
-        {navStatus === "coursePage" ? <Agends data={actualData} /> : null} */}
+        {navStatus === "coursePage" ? <Agends data={actualData} /> : null}
 
         <ul className={styles.navList}>
           <li
