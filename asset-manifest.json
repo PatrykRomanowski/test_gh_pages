@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/test_gh_pages/static/css/main.c6a65580.css",
-    "main.js": "/test_gh_pages/static/js/main.914ad078.js",
+    "main.js": "/test_gh_pages/static/js/main.ad9d0463.js",
     "static/media/united-kingdom.png": "/test_gh_pages/static/media/united-kingdom.b9a2ba74e5f8a55977e7.png",
     "static/media/poland.png": "/test_gh_pages/static/media/poland.a498d547b8c6fc3ccf55.png",
     "index.html": "/test_gh_pages/index.html",
     "main.c6a65580.css.map": "/test_gh_pages/static/css/main.c6a65580.css.map",
-    "main.914ad078.js.map": "/test_gh_pages/static/js/main.914ad078.js.map"
+    "main.ad9d0463.js.map": "/test_gh_pages/static/js/main.ad9d0463.js.map"
   },
   "entrypoints": [
     "static/css/main.c6a65580.css",
-    "static/js/main.914ad078.js"
+    "static/js/main.ad9d0463.js"
   ]
 }
