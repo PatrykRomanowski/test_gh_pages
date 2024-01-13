@@ -45,9 +45,9 @@ const MainSite = () => {
   return (
     <>
       <nav>
-        {/* {navStatus === "startPage" ? (
+        {navStatus === "startPage" ? (
           <StartPage actualLanguage={actualLanguage} />
-        ) : null} */}
+        ) : null}
         {/* {navStatus === "forParticipantsPage" ? (
           <ForParticipants data={actualData} />
         ) : null}
